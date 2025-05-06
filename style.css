@@ -1,0 +1,32 @@
+/* 既存のCSSの最後に以下を追加 */
+
+@media (max-width: 600px) {
+  header nav ul {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .hero h2 {
+    font-size: 1.5em;
+  }
+
+  .services, .pricing, .reviews, .blog {
+    padding: 1.5em 1em;
+  }
+
+  .pricing table {
+    font-size: 0.9em;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .btn {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .review, .blog-post {
+    font-size: 0.95em;
+  }
+}
