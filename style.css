@@ -152,7 +152,6 @@ footer {
   padding: 1em;
 }
 
-/* スマホ対応：600px以下の場合 */
 @media (max-width: 600px) {
   header nav ul {
     flex-direction: column;
